@@ -1,0 +1,20 @@
+# 分析过程产物（不上传）
+original_charts/
+crops/
+media/
+*.txt
+dump*.py
+check*.py
+img_colors.py
+imgsize.py
+inspect*.py
+reencode*.py
+test13.png
+test7font.png
+measure*.py
+crop*.py
+scan11.py
+test*.py
+extract_sheet7.py
+export*.ps1
+export7area.ps1
