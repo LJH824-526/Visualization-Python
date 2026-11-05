@@ -1,0 +1,7 @@
+Python 3.12.14
+numpy 2.3.5
+pandas 2.2.3
+matplotlib 3.10.8
+openpyxl 3.1.5
+验证后端：Matplotlib Agg
+Jupyter 打开后使用 inline 后端。
