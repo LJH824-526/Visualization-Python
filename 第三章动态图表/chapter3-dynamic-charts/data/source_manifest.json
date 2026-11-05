@@ -1,0 +1,58 @@
+{
+  "source_file": "第三章 动态图表.xlsm",
+  "source_sha256": "b8cb6634a330efbf9e8b217ba0ed1d177f0ad31dd710d13356879e6da23234d2",
+  "source_sheets": [
+    "1 动态柱形图",
+    "2 动态跑道图",
+    "3 动态南丁格尔圆环图",
+    "4 动态组合图",
+    "5 人力资源明细",
+    "5 透视表切片器",
+    "6 VBA动态玉玦图",
+    "7 动态滑珠图"
+  ],
+  "example_count": 7,
+  "employee_count": 1470,
+  "education_order": [
+    "本科",
+    "博士",
+    "高中",
+    "硕士",
+    "专科"
+  ],
+  "hr_export": "department × education counts and income sums; no employee-level records",
+  "defaults": {
+    "1": {
+      "month": "5月"
+    },
+    "2": {
+      "month": "4月"
+    },
+    "3": {
+      "period": "近7天"
+    },
+    "4": {
+      "sales": true,
+      "profit": true,
+      "margin": true
+    },
+    "5": {
+      "departments": [
+        "市场拓展"
+      ]
+    },
+    "6": {
+      "period": "近30天"
+    },
+    "7": {
+      "axis": "月份",
+      "selection": "1月"
+    }
+  },
+  "original_pivot": {
+    "department": [
+      "市场拓展"
+    ],
+    "overall_average": 6446.495
+  }
+}
