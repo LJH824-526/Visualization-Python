@@ -1,0 +1,45 @@
+{
+  "records": 9994,
+  "join_and_aggregation_reconciled": true,
+  "rfm_customers": 693,
+  "figures": 19,
+  "notebook_code_cells_executed": 54,
+  "notebook_image_outputs": 49,
+  "dashboard": {
+    "default_charts": 6,
+    "template_choices": 30,
+    "template_T20_select_passed": true,
+    "West_metrics": [
+      [
+        "销售额 USD",
+        "725,457.82"
+      ],
+      [
+        "利润 USD",
+        "108,418.45"
+      ],
+      [
+        "综合利润率",
+        "14.94%"
+      ],
+      [
+        "订单数",
+        "1,611"
+      ]
+    ],
+    "exceptions": 0,
+    "empty_selection_passed": true
+  },
+  "validation_scope": "数据汇总对账、实际IPython单元执行、Streamlit AppTest筛选验证；未使用浏览器截图",
+  "template_figures": 30,
+  "total_python_figures": 49,
+  "business_model_figures": 9,
+  "all_png_dpi_at_least_150": true,
+  "template_mapping_rows": 30,
+  "github_uploaded": false,
+  "report_pages": 27,
+  "report_pages_visually_reviewed": 27,
+  "report_font_repair": "宋体和黑体中文字体设置，已渲染检查",
+  "template_contact_sheet_reviewed": 30,
+  "offline_comparison_links_valid": true
+}

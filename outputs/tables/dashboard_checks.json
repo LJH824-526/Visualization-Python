@@ -1,0 +1,25 @@
+{
+  "default_charts": 6,
+  "template_choices": 30,
+  "template_T20_select_passed": true,
+  "West_metrics": [
+    [
+      "销售额 USD",
+      "725,457.82"
+    ],
+    [
+      "利润 USD",
+      "108,418.45"
+    ],
+    [
+      "综合利润率",
+      "14.94%"
+    ],
+    [
+      "订单数",
+      "1,611"
+    ]
+  ],
+  "exceptions": 0,
+  "empty_selection_passed": true
+}

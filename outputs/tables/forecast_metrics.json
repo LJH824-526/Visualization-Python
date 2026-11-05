@@ -1,0 +1,18 @@
+{
+  "model": "加性阻尼趋势 加性季节 Holt Winters",
+  "period": 12,
+  "train_months": 36,
+  "test_months": 12,
+  "horizon": 6,
+  "bootstrap_repetitions": 3000,
+  "seed": 42,
+  "ets": {
+    "MAPE": 18.499160738956643,
+    "RMSE": 14124.154737874038
+  },
+  "seasonal_naive": {
+    "MAPE": 24.518885958503844,
+    "RMSE": 18985.69550786831
+  },
+  "interval": "条件于固定拟合参数的残差bootstrap 95%预测区间，不含参数不确定性；仅教学历史外推"
+}

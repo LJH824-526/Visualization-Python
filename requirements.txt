@@ -1,0 +1,11 @@
+pandas==2.2.3
+numpy==2.3.5
+matplotlib==3.10.8
+xlrd==2.0.1
+scipy==1.17.0
+statsmodels==0.15.0
+plotly==7.1.0
+streamlit==1.66.1
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6.29,<8

@@ -1,0 +1,45 @@
+{
+  "rows": 9994,
+  "orders": 5009,
+  "customers": 793,
+  "products": 1862,
+  "date_min": "2018-01-03",
+  "date_max": "2021-12-30",
+  "sales": 2297200.8603,
+  "profit": 286397.0216999999,
+  "margin": 0.12467217240315603,
+  "loss_lines": 1871,
+  "loss_line_share": 0.18721232739643787,
+  "negative_profit_total": -156131.2857,
+  "loss_orders": 1022,
+  "returned_orders": 296,
+  "returned_order_share": 0.05909363146336594,
+  "q4_sales_share": 0.38223804212110934,
+  "recent_rfm": {
+    "asof": "2021-12-31",
+    "start": "2021-01-01",
+    "R": 58.0,
+    "F": 2.0,
+    "M": 604.91,
+    "active_customers": 693,
+    "inactive_customers": 100
+  },
+  "forecast": {
+    "model": "加性阻尼趋势 加性季节 Holt Winters",
+    "period": 12,
+    "train_months": 36,
+    "test_months": 12,
+    "horizon": 6,
+    "bootstrap_repetitions": 3000,
+    "seed": 42,
+    "ets": {
+      "MAPE": 18.499160738956643,
+      "RMSE": 14124.154737874038
+    },
+    "seasonal_naive": {
+      "MAPE": 24.518885958503844,
+      "RMSE": 18985.69550786831
+    },
+    "interval": "条件于固定拟合参数的残差bootstrap 95%预测区间，不含参数不确定性；仅教学历史外推"
+  }
+}

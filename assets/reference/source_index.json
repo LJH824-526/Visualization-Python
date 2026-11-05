@@ -1,0 +1,422 @@
+[
+  {
+    "page": 18,
+    "number": 1,
+    "shape_id": 3,
+    "file": "assets/reference/p18_01.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 2345193,
+    "top": 1128878,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 2,
+    "shape_id": 4,
+    "file": "assets/reference/p18_02.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 4044969,
+    "top": 1128878,
+    "pixels": [
+      1910,
+      1430
+    ]
+  },
+  {
+    "page": 18,
+    "number": 3,
+    "shape_id": 5,
+    "file": "assets/reference/p18_03.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 5744745,
+    "top": 1128878,
+    "pixels": [
+      1913,
+      1433
+    ]
+  },
+  {
+    "page": 18,
+    "number": 4,
+    "shape_id": 6,
+    "file": "assets/reference/p18_04.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 7444521,
+    "top": 1128878,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 5,
+    "shape_id": 7,
+    "file": "assets/reference/p18_05.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 9144297,
+    "top": 1128878,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 6,
+    "shape_id": 8,
+    "file": "assets/reference/p18_06.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 2345193,
+    "top": 2401838,
+    "pixels": [
+      1910,
+      1430
+    ]
+  },
+  {
+    "page": 18,
+    "number": 7,
+    "shape_id": 9,
+    "file": "assets/reference/p18_07.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 4044969,
+    "top": 2401838,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 8,
+    "shape_id": 10,
+    "file": "assets/reference/p18_08.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 5744745,
+    "top": 2401838,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 9,
+    "shape_id": 11,
+    "file": "assets/reference/p18_09.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 7444521,
+    "top": 2401838,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 10,
+    "shape_id": 12,
+    "file": "assets/reference/p18_10.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 9144297,
+    "top": 2401838,
+    "pixels": [
+      1909,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 11,
+    "shape_id": 13,
+    "file": "assets/reference/p18_11.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 2345193,
+    "top": 3674798,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 14,
+    "shape_id": 16,
+    "file": "assets/reference/p18_14.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 7444521,
+    "top": 3674798,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 18,
+    "number": 20,
+    "shape_id": 23,
+    "file": "assets/reference/p18_20.png",
+    "width": 1634400,
+    "height": 1224000,
+    "left": 9144297,
+    "top": 4947758,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 20,
+    "number": 1,
+    "shape_id": 3,
+    "file": "assets/reference/p20_01.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 2112004,
+    "top": 1146173,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 20,
+    "number": 2,
+    "shape_id": 4,
+    "file": "assets/reference/p20_02.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 4365892,
+    "top": 1146173,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 20,
+    "number": 3,
+    "shape_id": 5,
+    "file": "assets/reference/p20_03.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 6619780,
+    "top": 1146173,
+    "pixels": [
+      1910,
+      1430
+    ]
+  },
+  {
+    "page": 20,
+    "number": 4,
+    "shape_id": 6,
+    "file": "assets/reference/p20_04.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 8873668,
+    "top": 1146173,
+    "pixels": [
+      1910,
+      1429
+    ]
+  },
+  {
+    "page": 20,
+    "number": 5,
+    "shape_id": 7,
+    "file": "assets/reference/p20_05.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 2112004,
+    "top": 2830973,
+    "pixels": [
+      1915,
+      1434
+    ]
+  },
+  {
+    "page": 20,
+    "number": 6,
+    "shape_id": 8,
+    "file": "assets/reference/p20_06.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 4365892,
+    "top": 2830973,
+    "pixels": [
+      1909,
+      1430
+    ]
+  },
+  {
+    "page": 20,
+    "number": 7,
+    "shape_id": 9,
+    "file": "assets/reference/p20_07.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 6619780,
+    "top": 2830973,
+    "pixels": [
+      1909,
+      1429
+    ]
+  },
+  {
+    "page": 20,
+    "number": 8,
+    "shape_id": 10,
+    "file": "assets/reference/p20_08.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 8873668,
+    "top": 2830973,
+    "pixels": [
+      1909,
+      1429
+    ]
+  },
+  {
+    "page": 20,
+    "number": 10,
+    "shape_id": 12,
+    "file": "assets/reference/p20_10.jpg",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 4365892,
+    "top": 4515773,
+    "pixels": [
+      1049,
+      851
+    ]
+  },
+  {
+    "page": 20,
+    "number": 11,
+    "shape_id": 13,
+    "file": "assets/reference/p20_11.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 6619780,
+    "top": 4515773,
+    "pixels": [
+      1913,
+      1432
+    ]
+  },
+  {
+    "page": 22,
+    "number": 6,
+    "shape_id": 8,
+    "file": "assets/reference/p22_06.png",
+    "width": 2166170,
+    "height": 1620000,
+    "left": 4466149,
+    "top": 2818969,
+    "pixels": [
+      1913,
+      1432
+    ]
+  },
+  {
+    "page": 22,
+    "number": 9,
+    "shape_id": 11,
+    "file": "assets/reference/p22_09.jpg",
+    "width": 2166170,
+    "height": 1620000,
+    "left": 2213333,
+    "top": 4503769,
+    "pixels": [
+      1085,
+      811
+    ]
+  },
+  {
+    "page": 22,
+    "number": 10,
+    "shape_id": 12,
+    "file": "assets/reference/p22_10.jpg",
+    "width": 2166170,
+    "height": 1620000,
+    "left": 4466149,
+    "top": 4503769,
+    "pixels": [
+      1091,
+      809
+    ]
+  },
+  {
+    "page": 22,
+    "number": 3,
+    "shape_id": 5,
+    "file": "assets/reference/p22_03.png",
+    "width": 2166170,
+    "height": 1620000,
+    "left": 6718966,
+    "top": 1134169,
+    "pixels": [
+      1913,
+      1433
+    ]
+  },
+  {
+    "page": 22,
+    "number": 5,
+    "shape_id": 7,
+    "file": "assets/reference/p22_05.png",
+    "width": 2166170,
+    "height": 1620000,
+    "left": 2213333,
+    "top": 2818969,
+    "pixels": [
+      1910,
+      1430
+    ]
+  },
+  {
+    "page": 24,
+    "number": 6,
+    "shape_id": 8,
+    "file": "assets/reference/p24_06.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 4272993,
+    "top": 2768882,
+    "pixels": [
+      1909,
+      1429
+    ]
+  },
+  {
+    "page": 24,
+    "number": 11,
+    "shape_id": 13,
+    "file": "assets/reference/p24_11.png",
+    "width": 2167200,
+    "height": 1620000,
+    "left": 6526881,
+    "top": 4453682,
+    "pixels": [
+      1910,
+      1429
+    ]
+  }
+]

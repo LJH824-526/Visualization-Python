@@ -1,0 +1,8 @@
+{
+  "source": "https://www.tableau.com/sites/default/files/2021-05/Sample%20-%20Superstore.xls",
+  "acquired_date": "2026-11-04",
+  "sha256": "03d9e99f29755e641075b0caedf00d10e9416fda3668039dc7c9982500a329fc",
+  "license": "官方公开教学样例；下载页未单列开放数据许可，不宣称 CC 或公有领域。",
+  "nature": "虚构零售公司的教学数据，非真实企业交易",
+  "sampling": "全量，不抽样，不补造数据"
+}

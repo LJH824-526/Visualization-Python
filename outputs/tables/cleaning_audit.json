@@ -1,0 +1,16 @@
+{
+  "raw_rows": 9994,
+  "raw_columns": 21,
+  "exact_duplicates": 0,
+  "postal_missing": 11,
+  "returns_raw_rows": 800,
+  "returns_unique_orders": 296,
+  "invalid_rows": 0,
+  "negative_profit_rows": 1871,
+  "sales_iqr_flags": 1167,
+  "product_name_conflict_ids": 32,
+  "returns_removed_duplicates": 504,
+  "unmatched_return_orders": 0,
+  "clean_rows": 9994,
+  "join_amount_reconciled": true
+}
