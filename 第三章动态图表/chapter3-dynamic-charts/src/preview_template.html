@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>第三章 动态图表</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#10142e;color:#f2f2f2;font:16px/1.65 "Microsoft YaHei","PingFang SC",sans-serif}
+header,main,footer{max-width:1120px;margin:auto;padding:22px 24px}header{padding-top:32px}h1{margin:0 0 8px;font-size:28px}p{margin:6px 0;color:#c5cce4}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}button,select{font:inherit;cursor:pointer;border:1px solid #535d8d;background:#20274e;color:#fff;border-radius:7px;padding:8px 12px}
+button.active{background:#0070c0;border-color:#53c1ff}button:focus-visible,select:focus-visible{outline:3px solid #7ed9ff;outline-offset:2px}
+.controls{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:4px 0 16px}.controls label{display:flex;gap:10px;align-items:center}
+select{min-width:190px;max-width:100%}.card{background:#1a1e43;border:1px solid #343e6c;border-radius:12px;overflow:hidden}img{width:100%;height:auto;display:block}footer{font-size:13px;color:#b9c1df;padding-top:0}.counter{color:#b9c1df}
+@media(max-width:620px){header,main,footer{padding-left:12px;padding-right:12px}h1{font-size:23px}nav button{font-size:13px;padding:6px 8px}.controls{gap:8px}}
+</style>
+</head>
+<body>
+<header><h1>第三章 动态图表</h1><p>选择图表与筛选项，查看数据切换后的结果。此页面可离线打开。</p><nav id="tabs" aria-label="图表选择"></nav></header>
+<main>
+<div class="controls"><label>选择状态 <select id="state" aria-label="数据筛选状态"></select></label><button id="previous" type="button">上一项</button><button id="next" type="button">下一项</button><button id="play" type="button" aria-pressed="false">自动切换</button><span class="counter" id="counter"></span></div>
+<div class="card"><img id="chart" alt="数据可视化图表"></div>
+</main>
+<footer>图片由 Python 根据原材料数据逐项计算。离线预览包含预生成的有限状态；部门任意多选和数据更新请使用配套 Jupyter Notebook。</footer>
+<script id="chart-data" type="application/json">CHART_DATA_JSON</script>
+<script>
+const charts=JSON.parse(document.getElementById('chart-data').textContent);
+const tabs=document.getElementById('tabs'),state=document.getElementById('state'),picture=document.getElementById('chart'),counter=document.getElementById('counter'),play=document.getElementById('play');
+let current=0,timer=null;
+function showState(index){const item=charts[current];state.value=String((index+item.states.length)%item.states.length);const selected=item.states[Number(state.value)];picture.src=selected.image;picture.alt=item.title+'：'+selected.label;counter.textContent=(Number(state.value)+1)+' / '+item.states.length;item.selected=Number(state.value)}
+function showChart(index){current=index;state.replaceChildren();for(let i=0;i<charts[index].states.length;i++){const option=document.createElement('option');option.value=String(i);option.textContent=charts[index].states[i].label;state.append(option)}for(let i=0;i<tabs.children.length;i++)tabs.children[i].classList.toggle('active',i===index);showState(charts[index].selected)}
+charts.forEach((item,index)=>{const button=document.createElement('button');button.type='button';button.textContent=item.number+' '+item.title;button.addEventListener('click',()=>showChart(index));tabs.append(button)});
+state.addEventListener('change',()=>showState(Number(state.value)));
+document.getElementById('previous').addEventListener('click',()=>showState(Number(state.value)-1));
+document.getElementById('next').addEventListener('click',()=>showState(Number(state.value)+1));
+play.addEventListener('click',()=>{if(timer!==null){clearInterval(timer);timer=null;play.textContent='自动切换';play.setAttribute('aria-pressed','false')}else{timer=setInterval(()=>showState(Number(state.value)+1),1500);play.textContent='暂停';play.setAttribute('aria-pressed','true')}});
+showChart(0);
+</script></body></html>
