@@ -1,0 +1,48 @@
+{
+  "embedded_records": 9994,
+  "linked_charts": 6,
+  "kpi_cards": 4,
+  "no_external_assets": true,
+  "csp_connect_src_none": true,
+  "browser_preview_tested": true,
+  "file_protocol_tested": false,
+  "file_protocol_reason": "预览浏览器安全策略不允许file协议",
+  "checks": {
+    "all_data": {
+      "sales": "2,297,200.86",
+      "profit": "286,397.02",
+      "margin": "12.47%",
+      "orders": "5,009"
+    },
+    "West": {
+      "sales": "725,457.82",
+      "profit": "108,418.45",
+      "margin": "14.94%",
+      "orders": "1,611"
+    },
+    "West_Technology_2021": {
+      "rows": 213,
+      "sales": "95,959.15",
+      "profit": "18,983.80",
+      "margin": "19.78%",
+      "orders": "177"
+    },
+    "pie_click_Technology": {
+      "rows": 1847,
+      "sales": "836,154.03",
+      "profit": "145,454.95",
+      "orders": "1,544"
+    },
+    "region_click_West": true,
+    "empty_selection": true,
+    "invalid_dates": true,
+    "pagination": true,
+    "actual_csv_download": {
+      "browser_download_success": true,
+      "utf8_bom": true,
+      "records": 9994,
+      "columns": 28,
+      "sales_reconciled": true
+    }
+  }
+}

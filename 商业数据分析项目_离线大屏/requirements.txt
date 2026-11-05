@@ -1,0 +1,2 @@
+plotly==7.1.0
+fonttools==4.61.1
