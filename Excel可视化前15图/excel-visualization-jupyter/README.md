@@ -94,7 +94,7 @@ git init
 git branch -M main
 git add .
 git commit -m "Add 15 Excel chart reproductions with Jupyter"
-git remote add origin https://github.com/YOUR_USERNAME/excel-visualization-jupyter.git
+git remote add origin https://github.com/LJH824-526/Visualization-Python
 git push -u origin main
 ```
 
