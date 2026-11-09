@@ -1,0 +1,62 @@
+{
+  "source_file": "第四章 销售看板参考.xlsx",
+  "source_sha256": "6ed2244795d2af99158bfd485fb6d077cf9a364b6255238a7e884f2ce20715a6",
+  "records": 8564,
+  "year": 2021,
+  "date_min": "2021-01-01",
+  "date_max": "2021-12-31",
+  "months": [
+    "1月",
+    "2月",
+    "3月",
+    "4月",
+    "5月",
+    "6月",
+    "7月",
+    "8月",
+    "9月",
+    "10月",
+    "11月",
+    "12月"
+  ],
+  "default_month": "9月",
+  "default_theme": "展示参考",
+  "regions": [
+    "华北",
+    "华南",
+    "东北",
+    "西北",
+    "西南",
+    "华东"
+  ],
+  "couriers": [
+    "顺丰",
+    "韵达",
+    "中通",
+    "申通",
+    "圆通",
+    "EMS"
+  ],
+  "categories": [
+    "办公用品",
+    "家具产品",
+    "数码电子"
+  ],
+  "costs": [
+    "推广",
+    "其他",
+    "人工",
+    "产品"
+  ],
+  "reference": {
+    "month": "9月",
+    "volume": 751,
+    "revenue_wan": 134.2887435500001,
+    "profit_wan": 16.374621863500007,
+    "profit_margin": 0.12193592277824238,
+    "cost": 929.2468960000001
+  },
+  "volume_definition": "count of sales detail rows, matching COUNTIFS in workbook",
+  "cost_unit": "not explicitly specified in source; preserve original values",
+  "export": "monthly and dimension aggregates; order identifiers and individual records excluded"
+}

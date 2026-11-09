@@ -1,0 +1,57 @@
+[
+  {
+    "number": 1,
+    "title": "推广费用",
+    "filename": "01_推广费用.png"
+  },
+  {
+    "number": 2,
+    "title": "其他费用",
+    "filename": "02_其他费用.png"
+  },
+  {
+    "number": 3,
+    "title": "人工费用",
+    "filename": "03_人工费用.png"
+  },
+  {
+    "number": 4,
+    "title": "产品费用",
+    "filename": "04_产品费用.png"
+  },
+  {
+    "number": 5,
+    "title": "快递公司销量",
+    "filename": "05_快递公司销量.png"
+  },
+  {
+    "number": 6,
+    "title": "区域销量",
+    "filename": "06_区域销量.png"
+  },
+  {
+    "number": 7,
+    "title": "销量环比",
+    "filename": "07_销量环比.png"
+  },
+  {
+    "number": 8,
+    "title": "各月销售额(万)",
+    "filename": "08_各月销售额_万.png"
+  },
+  {
+    "number": 9,
+    "title": "产品类别销量",
+    "filename": "09_产品类别销量.png"
+  },
+  {
+    "number": 10,
+    "title": "商品销售额Top3",
+    "filename": "10_商品销售额Top3.png"
+  },
+  {
+    "number": 11,
+    "title": "利润额占比销售额",
+    "filename": "11_利润额占比销售额.png"
+  }
+]
